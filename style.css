@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+  }
+
+  h1{
+      font-weight: 700;
+  }
+  h4{
+      font-weight: 600;
+  }
+  p{
+    font-weight: 100;
+  }
+
+  .card {
+    position: absolute;
+    margin: auto;
+
+    top: 40em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: 1400px;
+    border-radius: 10px;
+
+    box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+    background-image: url(bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left -50px top -200px;
+    background-size: 100% 50%;
+  }
+
+  .first-card {
+    position: relative;
+    top: 2em;
+  }
+  .first-rating {
+    position: relative;
+    top: 6em;
+    background-color: hsl(300, 24%, 96%);
+    width: 300px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .second-rating {
+    position: relative;
+    top: 7em;
+    background-color: hsl(300, 24%, 96%);
+    width: 300px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .third-rating {
+    position: relative;
+    top: 8em;
+    background-color: hsl(300, 24%, 96%);
+    width: 300px;
+    height: 75px;
+    border-radius: 10px;
+  }
+  .first-review {
+    position: relative;
+    top: 10em;
+    background-color: hsl(300, 43%, 22%);
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .second-review {
+    position: relative;
+    top: 11em;
+    background-color: hsl(300, 43%, 22%);
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .third-review {
+    position: relative;
+    top: 12em;
+    background-color: hsl(300, 43%, 22%);
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .title{
+    position: relative;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+  }
+  .title-description{
+    position: relative;
+    text-align: center;
+    top: 1.5em;
+    color: hsl(300, 43%, 22%, 0.5);
+    font-size: 13px;
+    line-height: 180%;
+  }
+
+  .stars{
+    position: relative;
+    text-align: center;
+    top: 1em;
+    margin-right: 10px;
+}
+.star1{
+    position: relative;
+    right: 1em;
+}
+.star2{
+    position: relative;
+    right: 0.5em;
+}
+.star3{
+    position: relative;
+    right: 0;
+}
+.star4{
+    position: relative;
+    left: 0.5em;
+}
+.star5{
+    position: relative;
+    left: 1em;
+}
+  .description{
+    position: relative;
+    top: 1.5em;
+    text-align: center;
+    color: hsl(300, 43%, 22%, 1);
+}
+
+.avatar-img{
+    border-radius: 50%;
+    width: 3em;
+}
+.avatar{
+    position: relative;
+    top: 2em;
+    left: 2em;
+}
+.name{
+    position: relative;
+    top: -1em;
+    left: 7em;
+    font-size: 14px;
+    color: white;
+}
+.status{
+    position: relative;
+    top: -0.75em;
+    left: 7em;
+    font-size: 14px;
+    color: hsl(333, 80%, 67%);
+}
+.review{
+    position: relative;
+    top: 1.5em;
+    margin-left: 2.1em;
+    margin-right: 2.1em;
+    font-size: 12px;
+    color: white;
+    line-height: 180%;
+}
+
+
+.attribution{
+    position: absolute;
+    margin: auto;
+    top: 150em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-weight: 900;
+    text-align: center;
+  }
+
+@media screen and (min-width: 1400px) {
+    .card {
+        top: 5em;
+        width: 1300px;
+        height: 700px;
+
+        background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: left -420px top -200px, right 0 bottom -100px;
+        background-size: 100% 100%, 100% 100%;
+      }
+
+      .first-card {
+        top: 6em;
+        left: 6em;
+        width: 34%;
+      }
+
+      .first-rating {
+        top: -5em;
+        left: 35em;
+        width: 450px;
+        height: 40px;
+      }
+      .second-rating {
+        top: -4em;
+        left: 40em;
+        width: 450px;
+        height: 40px;
+      }
+      .third-rating {
+        top: -3em;
+        left: 45em;
+        width: 450px;
+        height: 40px;
+      }
+
+     .title{
+        text-align: left;
+        width: 60%;
+      }
+      .title-description{
+        text-align: left;
+      }
+
+      .stars{
+        position: relative;
+        top: 0.8em;
+        right: 9em;
+    }
+        .description{
+        position: relative;
+        text-align: left;
+        top: -0.4em;
+        left: 11em;
+    }
+
+    .first-review {
+        top: 4em;
+        left: 6em;
+        width: 320px;
+        height: 220px;
+      }
+      .second-review {
+        top: -9em;
+        left: 30em;
+        width: 320px;
+        height: 220px;
+      }
+      .third-review {
+        top: -21em;
+        left: 54em;
+        width: 320px;
+        height: 220px;
+      }
+ 
+      .attribution{
+        position: relative;
+        text-align: center;
+        top: 60em;
+      }
+}
